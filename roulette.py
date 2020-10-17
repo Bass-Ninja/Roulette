@@ -10,7 +10,7 @@ valid_choices = list(map(int, input("Choose your numbers:").split()))
 
 print()
 
-if valid_choices == winning_number:
+if winning_number in valid_choices:
     print("Congratulations, you win!!!")
 else:
     print("Sorry, you lose.")
