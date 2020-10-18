@@ -15,7 +15,7 @@ player_balance = int(input("Please make a deposit(MAX = 500 credits): "))
 
 print("Your balance is {} credits.".format(player_balance))
 
-bets = int(input("Please choose bet value: "))
+bets = int(input("Please choose bet value per number: "))
 print("Bets are {} credit(s) per number.".format(bets))
 
 choices = list(map(int, input("Choose your numbers: ").split()))
@@ -45,6 +45,6 @@ while player_balance > 0:
 
     print()
     print("Current balance is {} credits".format(player_balance))
-    bets = int(input("Please choose bet value: "))
+    bets = int(input("Please choose bet value per number: "))
     print("Bets are {} credit(s) per number.".format(bets))
     choices = list(map(int, input("Choose your numbers: ").split()))
